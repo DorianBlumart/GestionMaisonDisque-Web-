@@ -1,0 +1,63 @@
+/*Style projet*/
+
+/*******************index*********************************/
+.my-containerTop{
+    //border: 1px solid green;
+    background-color: #7f3f6f;
+}
+.my-container{
+    //border: 1px solid green;
+    margin-bottom: 3%;
+
+}
+.my-row{
+    //border: 3px solid red;
+}
+.my-col{
+    //border: 3px dotted blue; 
+}
+.my-col a:hover{
+    color:white;
+}
+img{
+    width: 100%;
+}
+body{
+    background-color:#c6a2d3;
+}
+.textTop{
+    text-decoration:none;
+    color:white;
+}
+.btn-warning{
+    color: white;
+    background-color: orange;
+}
+/*********************DAO****************************/
+.my-contenu{
+    margin-bottom: 3%;
+    color: black;
+}
+.my-title{
+    margin-bottom: 3%;
+    background-color: whitesmoke;
+    color: #7f3f6f;   
+}
+.my-paragraph{
+    margin-top: 1%;border-top: 2px whitesmoke solid; border-bottom: 2px whitesmoke solid;
+}
+
+/***********************général*****************************/
+.txtWarn{
+    color: red;
+    font-weight: bold;
+}
+.txtOk{
+    color: green;
+    font-weight: bold;   
+}
+.txtWhite{
+    color:white;
+}
+
+
