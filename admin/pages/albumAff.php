@@ -3,6 +3,7 @@
 </hgroup>
 
 <?php
+include ('lib/php/verifier_connexion.php');
 //récupération des albums
 $album = new Vue_album_artiste_labelDB($cnx);
 $liste = array();

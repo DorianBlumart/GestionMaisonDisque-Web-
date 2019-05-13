@@ -4,6 +4,7 @@
 
 <?php
 //récupération des labels
+include ('lib/php/verifier_connexion.php');
 $label = new Vue_label_maisonDB($cnx);
 $liste = array();
 $liste = null;

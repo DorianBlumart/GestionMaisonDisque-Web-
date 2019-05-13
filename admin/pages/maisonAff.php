@@ -3,6 +3,7 @@
 </hgroup>
 
 <?php
+include ('lib/php/verifier_connexion.php');
 $vue = new MaisonDB($cnx);
 $liste = array();
 $liste = null;

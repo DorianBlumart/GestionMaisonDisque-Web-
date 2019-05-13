@@ -4,6 +4,7 @@
 
 <?php
 //récupération des artistes
+include ('lib/php/verifier_connexion.php');
 $artiste = new Vue_artiste_labelDB($cnx);
 $liste = array();
 $liste = null;

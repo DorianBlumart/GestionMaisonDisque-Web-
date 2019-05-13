@@ -2,6 +2,7 @@
     <h3 class="my-title text-center">Ajout label</h3>
 </hgroup>
 <?php
+include ('lib/php/verifier_connexion.php');
 if (isset($_GET['creer'])) {
     extract($_GET, EXTR_OVERWRITE);
 
